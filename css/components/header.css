@@ -80,8 +80,8 @@
 .header-img .img-box::after {
 	content: "";
 	position: absolute;
-	width: 50rem;
-	height: 50rem;
+	width: 150%;
+	height: 150%;
 	background: conic-gradient(transparent, transparent, transparent, var(--main-color));
 	transform: rotate(0deg);
 	animation: rotacao 10s linear infinite;
