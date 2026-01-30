@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	function digitar() {
 		subtitulo.innerHTML = "";
 
-		const parteNormal = "Desenvolvedor ";
+		const parteNormal = "Dev ";
 		const parteVerde = "Full Stack";
 		const parteFim = ".";
 
