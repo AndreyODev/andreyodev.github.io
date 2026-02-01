@@ -24,12 +24,6 @@ ol {
 	list-style-type: none;
 }
 
-section {
-	width: 100%;
-	min-height: 100dvh;
-	padding: 10rem 9% 2rem;
-	background: var(--bg-color);
-}
 .padding-inline {
 	padding-inline: 9%;
 }

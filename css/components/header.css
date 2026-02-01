@@ -10,10 +10,9 @@ body {
 	gap: 5rem;
 	width: 100%;
 	min-height: 100dvh;
-	padding: 10rem 5% 2rem;
+	padding: 10rem 9% 2rem;
 	background: var(--bg-color);
 	overflow-x: hidden;
-	box-sizing: border-box;
 }
 
 .header-info h1 {
@@ -75,6 +74,7 @@ body {
 }
 
 .header-info .sci a:hover {
+	transform: scale(1.1);
 	background: var(--main-color);
 	color: var(--bg-color);
 	box-shadow: 0 0 1rem var(--main-color);
@@ -129,13 +129,13 @@ body {
 	height: 100%;
 	display: block;
 	border-radius: 50%;
-	object-fit: cover;
+	/* object-fit: cover; */
 }
 
 /* RESPONSIVIDADE */
 @media (max-width: 992px) {
 	#header {
-		padding: 10rem 4% 2rem;
+		padding: 10rem 5% 2rem;
 	}
 }
 

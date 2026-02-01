@@ -3,9 +3,9 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
+	min-height: 100dvh;
 }
-
-/* ---------- TÍTULO ---------- */
 
 .skills-orbit h2 {
 	font-size: clamp(2.5rem, 6vw, 4rem);
@@ -23,16 +23,12 @@
 	color: var(--main-color);
 }
 
-/* ---------- CONTAINER ---------- */
-
 .skills__content {
 	position: relative;
 	width: min(350px, 90vw);
 	aspect-ratio: 1 / 1;
 	margin: 0 auto;
 }
-
-/* ---------- ÍCONE CENTRAL ---------- */
 
 .center-icon {
 	position: absolute;
@@ -53,16 +49,12 @@
 	z-index: 2;
 }
 
-/* ---------- ÓRBITA ---------- */
-
 .orbit {
 	position: absolute;
 	inset: 0;
 	transform-origin: 50% 50%;
 	animation: orbit-rotate 18s linear infinite;
 }
-
-/* ---------- SKILLS ---------- */
 
 .skill-item {
 	position: absolute;
@@ -81,13 +73,10 @@
 	font-size: clamp(18px, 5vw, 28px);
 }
 
-/* Texto */
 .skill-item span {
 	font-size: clamp(9px, 2.5vw, 11px);
 	margin-top: 4px;
 }
-
-/* ---------- POSICIONAMENTO ---------- */
 
 .orbit > .skill-item:nth-of-type(1) {
 	transform: translate(-50%, -50%) rotate(0deg) translate(115px);
@@ -112,7 +101,6 @@
 .orbit > .skill-item:nth-of-type(6) {
 	transform: translate(-50%, -50%) rotate(300deg) translate(115px);
 }
-/* ---------- ANIMAÇÕES ---------- */
 
 @keyframes orbit-rotate {
 	from {
@@ -131,8 +119,6 @@
 		transform: rotate(0deg);
 	}
 }
-
-/* ---------- MOBILE EXTRA ---------- */
 
 @media (max-width: 480px) {
 	#skills {

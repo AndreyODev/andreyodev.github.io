@@ -2,6 +2,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
+	min-height: 100dvh;
 }
 
 .contact__content {
@@ -73,12 +75,6 @@
 }
 
 /* RESPONSIVO */
-@media (max-width: 904px) {
-	.contact__content {
-		max-width: 720px;
-	}
-}
-
 @media (max-width: 775px) {
 	.contact__content {
 		max-width: 100%;
